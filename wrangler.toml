@@ -6,7 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 # KV命名空间绑定（必须写对，大小写敏感）
 [[kv_namespaces]]
 binding = "KV"
-id = b02984e239c44cd7855ad041262abb2f  # 注意：这里不要加引号！！！
+id = b02984e239c44cd7855ad041262abb2f 
 
 
 
