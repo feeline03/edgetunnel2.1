@@ -1,8 +1,13 @@
-name = "v20251104"
-main = "_worker.js"
-compatibility_date = "2025-11-04"
-keep_vars = true
+name = "edgetunnel"  # 保持和你Worker名字一致
+main = "src/worker.js"
+compatibility_date = "2024-04-01"
+compatibility_flags = ["nodejs_compat"]
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = "b02984e239c44cd7855ad041262abb2f"				#KV数据库id
+# KV命名空间绑定（必须写对，大小写敏感）
+[[kv_namespaces]]
+binding = "KV"
+id = b02984e239c44cd7855ad041262abb2f  # 注意：这里不要加引号！！！
+
+
+
+
